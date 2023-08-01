@@ -1,0 +1,136 @@
+/* styles.css */
+/* General styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #dfe0e2;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+
+header {
+    background-color: #40556a;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Main content styles */
+
+main {
+    padding: 20px;
+}
+
+/* Image upload button styles */
+
+.upload-area {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#fileInput {
+    display: none;
+}
+
+#uploadButton {
+    background-color: #8d9fb1;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#uploadButton:hover {
+    background-color: #0056b3;
+}
+
+/* Image styles */
+
+.image-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#uploadedImage {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* Analysis results styles */
+
+.results-container {
+    background-color: #ccd1dc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.results-container h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.results-container p {
+    margin: 0;
+}
+
+/* Responsive styles */
+
+/* For screen sizes up to 768px */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    #uploadButton {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
+
+/* For screen sizes up to 576px */
+@media screen and (max-width: 576px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    main {
+        padding: 5px;
+    }
+}
+
+/* For larger screen sizes (e.g., desktops) */
+@media screen and (min-width: 1200px) {
+    .container {
+        padding: 40px;
+    }
+
+    header {
+        padding: 20px;
+    }
+
+    main {
+        padding: 40px;
+    }
+}
