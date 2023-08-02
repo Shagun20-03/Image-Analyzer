@@ -18,9 +18,10 @@ Before running the application, make sure you have the following installed:
 ## Configuration
 1. Create a `.env` file and update it with your Computer Vision API subscription key and endpoint:
    SUBSCRIPTION_KEY=your_subscription_key
-   ENDPOINT=your_endpoint
+   ENDPOINT=your_endpoint.
+   Make sure to add the .env file to your .gitignore file so that it is not uploaded to version control and kept secret.
 
-2. Save the changes.
+3. Save the changes.
 
 ## Running the Application
 
