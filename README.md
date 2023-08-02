@@ -6,8 +6,8 @@ This is a web application that allows users to upload an image and analyze it us
 
 Before running the application, make sure you have the following installed:
 
-- Node.js
-- NPM (Node Package Manager)
+- Node.js (version- 19.0.0)
+- NPM (Node Package Manager- version 8.19.3)
 
 ## Installation
 
